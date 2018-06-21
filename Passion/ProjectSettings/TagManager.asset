@@ -35,8 +35,8 @@ TagManager:
   - Monster
   - Npc
   - Pet
-  - 
-  - 
+  - Walkable
+  - Enemy
   - 
   - 
   - 

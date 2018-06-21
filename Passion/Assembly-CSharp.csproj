@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{86E5119C-5786-38F7-976C-5A942303885A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_5;UNITY_2018_1;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2018.1.5f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.5f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.5f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Camera &amp; UI\camerafollow.cs" />
+    <Compile Include="Assets\Camera &amp; UI\CameraRaycaster.cs" />
+    <Compile Include="Assets\Camera &amp; UI\clicktomove.cs" />
+    <Compile Include="Assets\Camera &amp; UI\CursorAffordance.cs" />
+    <Compile Include="Assets\Camera &amp; UI\PlayerHealthBar.cs" />
+    <Compile Include="Assets\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Enemies\EnemyHealthBar.cs" />
+    <Compile Include="Assets\Enemies\EnemyUI.cs" />
+    <Compile Include="Assets\Extras\GestureRecognizer\Example\ExampleGestureHandler.cs" />
+    <Compile Include="Assets\Extras\GestureRecognizer\Scripts\DrawDetector.cs" />
+    <Compile Include="Assets\Extras\GestureRecognizer\Scripts\GestureData.cs" />
+    <Compile Include="Assets\Extras\GestureRecognizer\Scripts\GesturePattern.cs" />
+    <Compile Include="Assets\Extras\GestureRecognizer\Scripts\GesturePatternDraw.cs" />
+    <Compile Include="Assets\Extras\GestureRecognizer\Scripts\Recognizer.cs" />
+    <Compile Include="Assets\Extras\GestureRecognizer\Scripts\UILineRenderer.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scene\RFX4_DemoGUI.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scene\RFX4_FPS.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scene\RFX4_RealtimeReflection.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_AudioCurves.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_LightCurves.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_PhysicsForceCurves.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ScaleCurves.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ShaderColorGradient.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ShaderFloatCurve.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ShaderProperties.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_WindCurves.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingColor.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingPhysxForce.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingProjectile.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingVisible.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_CollisionPropertyDeactiavtion.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_ParticleCollisionHandler.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_ParticleLight.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_ParticleTrail.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_Turbulence.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_CameraShake.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_ColorHelper.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_CopyPosition.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DeactivateByTime.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DeactivateRigidbodyByTime.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DemoReactivation.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DistortionAndBloom.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_EffectEvent.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_MaterialQueue.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_OnEnableResetTransform.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_PhysXSetImpulse.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_RaycastCollision.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_ReplaceMaterialByTime.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_ReplaceModelOnCollision.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_RotateAround.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_StartDelay.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TextureShaderProperties.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TornadoParticles.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TrailRenderer.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TransformMotion.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_UVAnimation.cs" />
+    <Compile Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_UVScroll.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\- Scripts\AnimationControl.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\- Scripts\DeathButtonControl.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\- Scripts\KillSwitch.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\- Scripts\PanelControll.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\- Scripts\PeriodicShake.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\Axe.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\Crate.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\DamageSource.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\FirstAid.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\Food.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\Gem.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\HUD.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\InventoryItem.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\InventoryItemBase.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\InventorySlot.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\ItemClickHandler.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\ItemDragHandler.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\ItemDropHandler.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\PlayerFollow.cs" />
+    <Compile Include="Assets\Extras\LowPolyNature\Scripts\Sheep.cs" />
+    <Compile Include="Assets\Extras\Mixamo\Melee Axe Pack\Demo\CameraScroll.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\Extras\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Extras\Unity Essentials - Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\IDamageable.cs" />
+    <Compile Include="Assets\Player\Player.cs" />
+    <Compile Include="Assets\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Projectile.cs" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_CutoutBorderMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_PortalSky.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Tornado.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DepthMask.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DistortionParticlesMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Extras\Unity Essentials - Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Extras\Unity Essentials - Lighting Optimisation Tutorial\Shaders\WavingGrass.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMaskMulMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Dragon\Read me.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_MobileDiffuse.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalMask.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Death Knight Pack\Toon Ghost\Read me.txt" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMaskMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Rock Golem\Read me.txt" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Skeletons Pack\Toon Skeleton Mage\Read me.txt" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_PortalMask.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Bloom\Resources\RFX4_Bloom_Inc.cginc" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DistortionParticlesAdd.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplash.shader" />
+    <None Include="Assets\Extras\Customizable Fantasy Buildings\Read me.txt" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Readme.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMaskMul.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_IceMobile.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_CutoutBorder.shader" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Plant Monster\Read me.txt" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_IceDecalMobile.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Bloom\Resources\RFX4_Bloom.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_ProjectorBlended.shader" />
+    <None Include="Assets\Extras\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_IceDecal.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Lava.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_PortalStandard.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplashMobile.shader" />
+    <None Include="Assets\Extras\Customizable Fantasy Buildings\www.meshtint.com.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_ProjectorBlendedMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Extras\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
+    <None Include="Assets\Extras\Unity Essentials - Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Extras\Unity Essentials - Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_ShaderExtension.cginc" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterTurbulence.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Bloom\Resources\RFX4_BloomAdditive.shader" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Cactus Monster\Read me.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Particle.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMask.shader" />
+    <None Include="Assets\Extras\Unity Essentials - Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Extras\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Extras\Little Heroes Mega Pack\Read me.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Extras\GestureRecognizer\UPDATE GUIDE.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplashTexMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\NoStencilTransperentDiffuse.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalMaskMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_TranperentDiffuse.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Extras\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Lightning.shader" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Skeletons Pack\Toon Skeleton Knight\Read me.txt" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DistortionParticles.shader" />
+    <None Include="Assets\Extras\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Extras\Little Heroes Mega Pack\www.meshtint.com.txt" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Skeletons Pack\Toon Skeleton Archer\Read me.txt" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplashTex.shader" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Bat\Read me.txt" />
+    <None Include="Assets\Extras\Toon Enemies Pack\Toon Death Knight Pack\Toon Death Knight\Read me.txt" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_LightningMobile.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Extras\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Ice.shader" />
+    <None Include="Assets\Extras\Low Poly Animated Animals\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/zaviy/Documents/GitHub/RPG-Course/Passion/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/zaviy/Documents/GitHub/RPG-Course/Passion/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/zaviy/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/zaviy/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/zaviy/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
