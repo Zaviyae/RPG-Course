@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: befe87f74d372b343a1e4474763c11e6, type: 3}
+  m_Name: SimpleGameplayRule
+  m_EditorClassIdentifier: 
+  increaseStatPointEachLevel: 5
+  increaseSkillPointEachLevel: 1
+  hungryWhenFoodLowerThan: 40
+  thirstyWhenWaterLowerThan: 40
+  staminaRecoveryPerSeconds: 5
+  staminaDecreasePerSeconds: 5
+  foodDecreasePerSeconds: 0
+  waterDecreasePerSeconds: 0
+  moveSpeedRateWhileSprint: 1.5
+  hpRecoveryRatePerSeconds: 0.01
+  mpRecoveryRatePerSeconds: 0.01
+  hpDecreaseRatePerSecondsWhenHungry: 0
+  mpDecreaseRatePerSecondsWhenHungry: 0
+  hpDecreaseRatePerSecondsWhenThirsty: 0
+  mpDecreaseRatePerSecondsWhenThirsty: 0

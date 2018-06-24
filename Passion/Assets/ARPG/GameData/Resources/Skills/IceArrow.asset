@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7000b16da17f19d44ac30148edd738d0, type: 3}
+  m_Name: IceArrow
+  m_EditorClassIdentifier: 
+  title: Ice Arrow
+  description: 
+  icon: {fileID: 21300000, guid: eaf6a18d60a38b74bb95b062640c8073, type: 3}
+  castAnimations: []
+  maxLevel: 10
+  availableWeapons:
+  - {fileID: 11400000, guid: d433f880a1c9d6149bcbf3b5676ea6a0, type: 2}
+  consumeMp:
+    baseAmount: 2
+    amountIncreaseEachLevel: 0
+  coolDownDuration:
+    baseAmount: 5
+    amountIncreaseEachLevel: 0
+  requirement:
+    characterLevel:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    skillLevels: []
+  skillAttackType: 2
+  hitEffects:
+    effects: []
+  damageInfo:
+    damageType: 0
+    hitDistance: 1
+    hitFov: 0
+    missileDistance: 5
+    missileSpeed: 5
+    missileDamageEntity: {fileID: 0}
+  effectivenessAttributes: []
+  damageAmount:
+    damageElement: {fileID: 0}
+    amount:
+      baseAmount:
+        min: 0
+        max: 0
+      amountIncreaseEachLevel:
+        min: 0
+        max: 0
+  weaponDamageInflictions:
+  - damageElement: {fileID: 11400000, guid: 02b1c5248ea9f3242aa338970d626d27, type: 2}
+    rate:
+      baseAmount: 1
+      amountIncreaseEachLevel: 0.05
+  additionalDamageAmounts: []
+  isDebuff: 0
+  debuff:
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+    increaseAttributes: []
+    increaseResistances: []
+    increaseDamages: []
+    effects: []
+  skillBuffType: 0
+  buff:
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+    increaseAttributes: []
+    increaseResistances: []
+    increaseDamages: []
+    effects: []

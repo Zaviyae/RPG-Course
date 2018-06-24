@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7000b16da17f19d44ac30148edd738d0, type: 3}
+  m_Name: MagicShield
+  m_EditorClassIdentifier: 
+  title: Magic Shield
+  description: 
+  icon: {fileID: 21300000, guid: 71b04b77b3ec21646925df766a4f439d, type: 3}
+  skillType: 0
+  maxLevel: 10
+  castAnimations: []
+  availableWeapons: []
+  consumeMp:
+    baseAmount: 2
+    amountIncreaseEachLevel: 0
+  coolDownDuration:
+    baseAmount: 30
+    amountIncreaseEachLevel: 0
+  requirement:
+    characterLevel:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    skillLevels: []
+  skillAttackType: 0
+  hitEffects:
+    effects: []
+  damageInfo:
+    damageType: 0
+    hitDistance: 1
+    hitFov: 0
+    missileDistance: 5
+    missileSpeed: 5
+    missileDamageEntity: {fileID: 0}
+  effectivenessAttributes: []
+  damageAmount:
+    damageElement: {fileID: 0}
+    amount:
+      baseAmount:
+        min: 0
+        max: 0
+      amountIncreaseEachLevel:
+        min: 0
+        max: 0
+  weaponDamageInflictions: []
+  additionalDamageAmounts: []
+  isDebuff: 0
+  debuff:
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+    increaseAttributes: []
+    increaseResistances: []
+    increaseDamages: []
+    effects: []
+  skillBuffType: 1
+  buff:
+    duration:
+      baseAmount: 30
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 10
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 1
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+    increaseAttributes: []
+    increaseResistances: []
+    increaseDamages: []
+    effects:
+    - {fileID: 114170415680948980, guid: 7cf9a139e479b7845b47bef0154b949d, type: 2}
+  craftingItem: {fileID: 0}

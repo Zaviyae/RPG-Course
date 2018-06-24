@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc493348cdb9474d89497ed882aae38, type: 3}
+  m_Name: Npc01_Quest03
+  m_EditorClassIdentifier: 
+  title: Npc 01
+  description: 
+  icon: {fileID: 0}
+  type: 1
+  menus: []
+  quest: {fileID: 11400000, guid: 35af53733329bea43ba4a13eab140778, type: 2}
+  questAcceptedDialog: {fileID: 11400000, guid: e3235e181e88b534fac66e7cd7764d16,
+    type: 2}
+  questDeclinedDialog: {fileID: 11400000, guid: 1d117e00b9fd1b541a186b0745a60165,
+    type: 2}
+  questAbandonedDialog: {fileID: 11400000, guid: 101bdba2836a8704d8993bb439c96d9d,
+    type: 2}
+  questCompletedDailog: {fileID: 11400000, guid: 331f137ce2b944d4c8e29f0cfc067d39,
+    type: 2}

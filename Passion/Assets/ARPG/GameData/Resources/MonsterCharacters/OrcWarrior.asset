@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc36af2edc1501b48b4e46ebebbf6589, type: 3}
+  m_Name: OrcWarrior
+  m_EditorClassIdentifier: 
+  title: Orc Warrior
+  description: 
+  icon: {fileID: 0}
+  model: {fileID: 114844247168468094, guid: c26675f5ea04ade429c509dd5998a3a3, type: 2}
+  attributes:
+  - attribute: {fileID: 11400000, guid: 0e223af20738b88419c22a1a0401a21b, type: 2}
+    amount:
+      baseAmount: 15
+      amountIncreaseEachLevel: 2.5
+  - attribute: {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}
+    amount:
+      baseAmount: 15
+      amountIncreaseEachLevel: 1.5
+  - attribute: {fileID: 11400000, guid: c7e3824f99bb4bc43b9566210f8d02f5, type: 2}
+    amount:
+      baseAmount: 5
+      amountIncreaseEachLevel: 1
+  - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
+    amount:
+      baseAmount: 5
+      amountIncreaseEachLevel: 1
+  stats:
+    baseStats:
+      hp: 0
+      mp: 0
+      armor: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0.25
+      criDmgRate: 1.5
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 4.5
+      atkSpeed: 1
+      weightLimit: 0
+      stamina: 0
+      food: 0
+      water: 0
+    statsIncreaseEachLevel:
+      hp: 0
+      mp: 0
+      armor: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      stamina: 0
+      food: 0
+      water: 0
+  resistances: []
+  characteristic: 1
+  allyId: 0
+  Immovable: 0
+  wanderMoveSpeed: 3
+  visualRange: 5
+  deadHideDelay: 2
+  deadRespawnDelay: 5
+  attackAnimations:
+  - clip: {fileID: 7400000, guid: b879d93f6ad2e3d4681e180c8716daf1, type: 3}
+    triggerDurationRate: 0.5
+    extraDuration: 0.5
+    audioClips:
+    - {fileID: 8300000, guid: 543fbe2f32e015749bafb0f7691eb41b, type: 3}
+  - clip: {fileID: 7400000, guid: e9c5add18fadf164a9f5e656dea581d5, type: 3}
+    triggerDurationRate: 0.5
+    extraDuration: 0.5
+    audioClips:
+    - {fileID: 8300000, guid: 543fbe2f32e015749bafb0f7691eb41b, type: 3}
+  damageInfo:
+    damageType: 0
+    hitDistance: 1.5
+    hitFov: 90
+    missileDistance: 5
+    missileSpeed: 5
+    missileDamageEntity: {fileID: 0}
+  damageAmount:
+    damageElement: {fileID: 0}
+    amount:
+      baseAmount:
+        min: 0
+        max: 0
+      amountIncreaseEachLevel:
+        min: 0
+        max: 0
+  randomExpMin: 20
+  randomExpMax: 20
+  randomGoldMin: 50
+  randomGoldMax: 50
+  randomItems:
+  - item: {fileID: 11400000, guid: 64774d4b5cf3f9846a2d2088fb52e44a, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: e43af8a3a8f9a7a478dc243c7b15ff5f, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 66401780aa1f1a24782d11c6980883b2, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: f913fbdc47f19a4408bc793331f9583a, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 4ec23479e56964a4fb4f2cbd63adf628, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 99ce6353c3a0b344bb452d0b2035feed, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 4519d6286cf69b142ac9894ff8e06a31, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: b64f816f68b7d6a42b7d3857a4b5d931, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 8ead9c05113e5a5429ec0871d4079f29, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: ff345f6fce46c844582749ebc64fd586, type: 2}
+    amount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 0df782e70d43dc54d8a6bc2d6a212f89, type: 2}
+    amount: 5
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: f0ba2e9ab5115a74184f1805934e122d, type: 2}
+    amount: 5
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 0a439d3c316c36f4cae03a253c8839d4, type: 2}
+    amount: 5
+    dropRate: 0.1
